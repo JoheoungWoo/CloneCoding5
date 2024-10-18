@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 136039220442444357}
   - component: {fileID: 2743376795215931164}
   - component: {fileID: 7168843363598444004}
+  - component: {fileID: 8187967849154598651}
   m_Layer: 0
   m_Name: FishV4_Modify
   m_TagString: Untagged
@@ -112,7 +113,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: 683bae7acd0a5554db648057126b1ecd, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 
@@ -120,3 +121,17 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &8187967849154598651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1937588542411740048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a528201db75ac3488fb2a98f379bf0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 4
+  speed: 5
